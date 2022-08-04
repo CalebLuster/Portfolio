@@ -1,0 +1,28 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/covers/Logo-c2.3.png",
+            "title": "GGWP",
+            "description": "React, JSX, Tailwind",
+            "url": "http://google.com"
+        },
+        {
+            "cover": "/portfolio/covers/Logo-c2.3.png",
+            "title": "GGWP",
+            "description": "React, JSX, Tailwind",
+            "url": "http://google.com"
+        },
+        {
+            "cover": "/portfolio/covers/Logo-c2.3.png",
+            "title": "GGWP",
+            "description": "React, JSX, Tailwind",
+            "url": "http://google.com"
+        },
+        {
+            "cover": "/portfolio/covers/Logo-c2.3.png",
+            "title": "GGWP",
+            "description": "React, JSX, Tailwind",
+            "url": "http://google.com"
+        }
+    ]
+}

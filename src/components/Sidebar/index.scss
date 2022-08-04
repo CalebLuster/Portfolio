@@ -1,6 +1,6 @@
 .nav-bar {
   background: #181818;
-  width: 60px;
+  width: 61px;
   height: 100%;
   position: absolute;
   top: 0;
@@ -46,7 +46,7 @@
       }
 
       &:hover {
-        color: #ffd700;
+        color: #BCE046;
 
         svg {
           opacity: 0;
@@ -87,10 +87,14 @@
         content: 'CONTACT';
       }
     }
-
+    a.portfolio-link {
+      &:after {
+        content: 'PROJECTS';
+      }
+    }
     a.active {
       svg {
-        color: #ffd700;
+        color: #BCE046;
       }
     }
   }
@@ -113,7 +117,7 @@
         line-height: 16px;
 
         &:hover svg {
-          color: #ffd700;
+          color: #BCE046;
         }
       }
     }

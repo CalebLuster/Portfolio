@@ -1,4 +1,4 @@
-$primary-color: #ffd700;
+$primary-color: #BCE046;
 
 @import 'animate.css';
 @import '~loaders.css/src/animations/pacman';
@@ -34,4 +34,5 @@ textarea {
   height: 50px;
   animation: fadeOut 1s 1s;
   animation-fill-mode: forwards;
+  background-image: #BCE046;
 }

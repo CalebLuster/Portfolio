@@ -1,9 +1,9 @@
 import { Link, NavLink } from 'react-router-dom'
 import './index.scss'
-import LogoS from '../../assets/images/Logo-c.png'
+import LogoS from '../../assets/images/Logo-c2.3.png'
 import LogoSubtitle from '../../assets/images/Logo-sub.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome, faUser, faEnvelope, } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faUser, faEnvelope, faSuitcase, } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub, faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 const Sidebar = () => (
@@ -20,16 +20,20 @@ const Sidebar = () => (
             <NavLink exact='true' activeclassname='active' className='about-link' to='/about' >
                 <FontAwesomeIcon icon={faUser} color='#4d4d4e' />          
             </NavLink>
+            <NavLink exact='true' activeclassname='active' className='portfolio-link' to='/portfolio' >
+                <FontAwesomeIcon icon={faSuitcase} color='#4d4d4e' />          
+            </NavLink>
             <NavLink exact='true' activeclassname='active' className='contact-link' to='/contact' >
                 <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e' />          
             </NavLink>
+            
         </nav>
         <ul>
             <li>
                 <a
                  rel='noreferrer' 
                  target='_blank'
-                 href="/">
+                 href="https://www.linkedin.com/in/caleb-luster-ab781b1b3/">
                     <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e' />
                 </a>
             </li>
@@ -37,7 +41,7 @@ const Sidebar = () => (
                 <a
                  rel='noreferrer' 
                  target='_blank'
-                 href="/">
+                 href="https://github.com/CalebLuster">
                     <FontAwesomeIcon icon={faGithub} color='#4d4d4e' />
                 </a>
             </li>
@@ -45,7 +49,7 @@ const Sidebar = () => (
                 <a
                  rel='noreferrer' 
                  target='_blank'
-                 href="/">
+                 href="https://www.instagram.com/cleb.l/">
                     <FontAwesomeIcon icon={faInstagram} color='#4d4d4e' />
                 </a>
             </li>
@@ -53,7 +57,7 @@ const Sidebar = () => (
                 <a
                  rel='noreferrer' 
                  target='_blank'
-                 href="/">
+                 href="https://www.facebook.com/caleb.luster.1">
                     <FontAwesomeIcon icon={faFacebook} color='#4d4d4e' />
                 </a>
             </li>
