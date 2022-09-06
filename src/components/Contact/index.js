@@ -98,16 +98,8 @@ const form =useRef()
             Rochester, MN <br />
             <span>CWL117@outlook.com</span>
         </div>
-        <div className='map-wrap'>
-            <MapContainer center={[44.035970, -92.528830]} zoom={13}>
-                <TileLayer url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'/>
-                <Marker position={[44.035970, -92.528830]}>
-                    <Popup>This is my residence, I dont know if this is risky putting my adress on the internet but at least now you can come over for some delicous cold brew!</Popup>
-                </Marker>
-            </MapContainer>
-        </div>
       </div>
-      <Loader type="pacman" />
+      <Loader type='ball-scale-ripple-multiple'/>
     </>
   )
 }

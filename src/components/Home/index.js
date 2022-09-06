@@ -10,6 +10,8 @@ const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const nameArray = ['a', 'l', 'e', 'b']
   const jobArray = [
+    'a',
+    ' ',
     'w',
     'e',
     'b',
@@ -52,7 +54,7 @@ const Home = () => {
           <AnimatedLetters
             letterClass={letterClass}
             strArray={jobArray}
-            idx={22}
+            idx={20}
           />
         </h1>
         <h2>Full Stack Developer</h2>
@@ -62,7 +64,7 @@ const Home = () => {
       </div>
       <Logo />
     </div>
-    <Loader type='pacman'/>
+    <Loader type='ball-scale-ripple-multiple'/>
     </>
   )
 }
