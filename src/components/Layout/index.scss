@@ -197,49 +197,6 @@
     height: auto;
     min-height: auto;
 
-    &.portfolio-page {
-      .text-zone {
-        position: initial;
-        transition: none;
-        width: 100%;
-        display: block;
-        padding: 20px;
-        box-sizing: border-box;
-      }
-    }
-    .contact-page {
-      .text-zone {
-        position: initial;
-        transition: none;
-        width: 100%;
-        display: block;
-        padding: 20px;
-        box-sizing: border-box;
-      }
-    }
-    .about-page {
-      .text-zone {
-        position: initial;
-        transition: none;
-        width: 100%;
-        display: block;
-        padding: 20px;
-        box-sizing: border-box;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .page {
-    position: initial;
-  }
-
-  .container {
-    position: initial;
-    height: auto;
-    min-height: auto;
-
     &.contact-page,
     &.about-page,
     &.portfolio-page {

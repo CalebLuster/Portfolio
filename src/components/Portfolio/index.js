@@ -3,10 +3,12 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import { useEffect, useState } from 'react'
-// import portfolioData from "../../data/portfolio.json"
 import Project from '../Project'
 import DBDLogo from './portfolioImages/dbdlogo.jpg'
-import DummyData from './portfolioImages/dummydata.png'
+import DevTubeLogo from './portfolioImages/devtube.png'
+import WeatherAppLogo from './portfolioImages/weather-app.png'
+import ToDoAppLogo from './portfolioImages/todo-app.png'
+
 
 const Portfolio = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -36,22 +38,22 @@ const Portfolio = () => {
             btn="https://dbdsma.vercel.app/"
           />
           <Project
-            title="PLACEHOLDER"
-            description="PLACEHOLDER"
-            btn="https://placeholder.com"
-            image={DummyData}
+            title="DEVTUBE"
+            description="A Youtube clone for all the developers out there"
+            btn="https://animated-liger-bccf67.netlify.app/"
+            image={DevTubeLogo}
           />
           <Project
-            title="PLACEHOLDER"
-            description="PLACEHOLDER"
-            btn="https://placeholder.com"
-            image={DummyData}
+            title="WEATHER OUT"
+            description="A simple weather app all portfolios need"
+            btn="https://timely-queijadas-638b49.netlify.app/"
+            image={WeatherAppLogo}
           />
           <Project
-            title="PLACEHOLDER"
-            description="PLACEHOLDER"
-            btn="https://placeholder.com"
-            image={DummyData}
+            title="WHAT TO DOS"
+            description="A simple to-do app to help you keep track of all your tasks"
+            btn="https://rad-croissant-1316a7.netlify.app/"
+            image={ToDoAppLogo}
           />
         </div>
       </div>
