@@ -92,6 +92,11 @@
         content: 'PROJECTS';
       }
     }
+    a.clockfaces-link {
+      &:after {
+        content: 'CLOCKS';
+      }
+    }
     a.active {
       svg {
         color: #BCE046;

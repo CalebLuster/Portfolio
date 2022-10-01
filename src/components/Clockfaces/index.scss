@@ -1,0 +1,81 @@
+.clockface-container {
+  display: flex;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  justify-content: center;
+  min-height: 100vh;
+  background: #000;
+}
+
+.clockface-inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.clockface-header {
+  display: flex;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.clock-card {
+  display: flex;
+  margin-top: 2.5rem;
+  flex-direction: column;
+  flex: 1 1 0%;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.clock-title {
+  color: #ffffff;
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 900;
+  letter-spacing: 0.025em;
+  font-family: poppins;
+}
+
+.clock-card-wrapper {
+  display: flex;
+  margin-top: 2.5rem;
+  justify-content: center;
+  width: 100%;
+}
+
+.clock-card-box {
+  position: relative;
+  min-width: 100%;
+  max-width: 100%;
+  border-radius: 1.5rem;
+  padding: 2px;
+}
+
+.clock-subtitle {
+  margin-top: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  color: #888282;
+}
+
+.tags,
+.home-page h1:before,
+.home-page h1:after {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .clockface-container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}

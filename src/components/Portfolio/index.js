@@ -40,7 +40,7 @@ const Portfolio = () => {
           <Project
             title="DEVTUBE"
             description="A Youtube clone for all the developers out there"
-            btn="https://animated-liger-bccf67.netlify.app/"
+            btn="https://devtubeclone.netlify.app/"
             image={DevTubeLogo}
           />
           <Project

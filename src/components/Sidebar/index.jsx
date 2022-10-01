@@ -10,6 +10,7 @@ import {
   faSuitcase,
   faBars,
   faClose,
+  faClock
 } from '@fortawesome/free-solid-svg-icons'
 import {
   faLinkedin,
@@ -54,6 +55,15 @@ const Sidebar = () => {
           to="/portfolio"
         >
           <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
+        </NavLink>
+        <NavLink
+          onClick={() => setShowNav(false)}
+          exact="true"
+          activeclassname="active"
+          className="clockfaces-link"
+          to="/clockfaces"
+        >
+          <FontAwesomeIcon icon={faClock} color="#4d4d4e" />
         </NavLink>
         <NavLink
           onClick={() => setShowNav(false)}
