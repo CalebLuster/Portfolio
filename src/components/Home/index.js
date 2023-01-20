@@ -10,22 +10,11 @@ const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const nameArray = ['a', 'l', 'e', 'b']
   const jobArray = [
-    'a',
-    ' ',
     'w',
     'e',
     'b',
     ' ',
-    'd',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
-    'r',
-    '.',
+    'developer.',
   ]
 
   useEffect(() => {
