@@ -6,7 +6,6 @@ import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
 import Portfolio from './components/Portfolio'
-import Clockfaces from './components/Clockfaces'
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
           <Route path='about' element={<About />} />
           <Route path='contact' element={<Contact />} />
           <Route path='portfolio' element={<Portfolio />} />
-          <Route path='clockfaces' element={<Clockfaces />} />
         </Route>
       </Routes>
     </>

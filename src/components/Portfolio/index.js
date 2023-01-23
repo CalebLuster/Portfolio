@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react'
 import Project from '../Project'
 import DBDLogo from './portfolioImages/dbdlogo.png'
 import DevTubeLogo from './portfolioImages/devtube.png'
-import WeatherAppLogo from './portfolioImages/weather-app.png'
+import VocesLogo from './portfolioImages/voces_logo.png'
 import LyriksLiteLogo from './portfolioImages/logoSL.png'
 
 const Portfolio = () => {
@@ -30,6 +30,12 @@ const Portfolio = () => {
         </h1>
         <div className="images-container">
           <Project
+            title="VOCES Y VISIONES"
+            description="A full stack web app for a growing local business reaching out beyond its hometown"
+            btn="https://vocesyvisiones.org"
+            image={VocesLogo}
+          />
+          <Project
             title="DEAD BY DAYLIGHT SOCIAL MEDIA APP"
             image={DBDLogo}
             description="A fan made social media app for the game Dead By Daylight"
@@ -46,12 +52,6 @@ const Portfolio = () => {
             description="A music listening app resembling spotify"
             btn="https://lyriks-lite.netlify.app/"
             image={LyriksLiteLogo}
-          />
-          <Project
-            title="WEATHER OUT"
-            description="A simple weather app all portfolios need"
-            btn="https://timely-queijadas-638b49.netlify.app/"
-            image={WeatherAppLogo}
           />
         </div>
       </div>
