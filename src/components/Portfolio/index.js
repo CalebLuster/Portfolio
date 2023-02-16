@@ -8,6 +8,7 @@ import DBDLogo from './portfolioImages/dbdlogo.png'
 import DevTubeLogo from './portfolioImages/devtube.png'
 import VocesLogo from './portfolioImages/voces_logo.png'
 import LyriksLiteLogo from './portfolioImages/logoSL.png'
+import chatGTP from './portfolioImages/chatGTP.png'
 
 const Portfolio = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -34,6 +35,12 @@ const Portfolio = () => {
             description="A full stack web app for a growing local business reaching out beyond its hometown"
             btn="https://vocesyvisiones.org"
             image={VocesLogo}
+          />
+          <Project
+            title="ChatGTP AI chat bot"
+            image={chatGTP}
+            description="Introducing the smartest and sharpest AI out there. Its ChatGTP (not to be confused with ChatGPT)"
+            btn="https://chat-gtp-rho.vercel.app/"
           />
           <Project
             title="DEAD BY DAYLIGHT SOCIAL MEDIA APP"
